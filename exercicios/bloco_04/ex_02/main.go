@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	soma := 0.0
+	var soma float64 // Go lang variaveis sao 0 por default, chamados de valores neutros ou Zero Values
 	for i := 1; i <= 4; i++ {
 		var altura float64
 		fmt.Println("Digite a sua altura")
@@ -12,5 +12,5 @@ func main() {
 		soma += altura
 	}
 
-	fmt.Printf("A soma de todas as alturas e: %.2f \n", soma)
+	fmt.Printf("A soma de todas as alturas e: %.2f m \n", soma)
 }
